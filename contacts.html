@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Contatti</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,8 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -36,9 +37,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a href="home.html"><i class="fa fa fa-home" aria-hidden="true"></i> Home</a></li>
                 <li><a href="maps.html"><i class="fa fa-map-marker" aria-hidden="true"></i> Maps</a></li>
-                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> Link 1</a></li>
+                <li class="active"><a href="#"><i class="fa fa-address-book" aria-hidden="true"></i> Contatti</a></li>
                 <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> Link 2</a></li>
                 <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> Link 3</a></li>
                 <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i> Link 4</a></li>
@@ -47,34 +48,42 @@
     </div>
 </nav>
 
-<div class="jumbotron">
-    <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-    </div>
-</div>
-
 <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
+
+    <div class="starter-template">
+        <h1>Contatti</h1>
+        <p class="lead">
+            Scrivici o chiamaci per qualsiasi domanda o informazione.<br>
+            Last but not least...ricorda di portare una buona dose di allegria :-)
+        </p>
     </div>
 
+    <div class="row">
+        <div class="col-md-2">
+            <img src="img/miky/miky-face.png" alt="..." class="img-rounded img-responsive">
+        </div>
+        <div class="col-md-4">
+            <address>
+                <strong>Michele Squeglia</strong><br>
+                Via L.Capuana 19<br>
+                Rho, MI 20017<br>
+                (+39) 346 123123<br>
+                <a href="mailto:#">squeglia.michele@gmail.com</a>
+            </address>
+        </div>
+        <div class="col-md-4 text-right">
+            <address>
+                <strong>Eleonora Fabrizio</strong><br>
+                Via L.Capuana 19<br>
+                Rho, MI 20017<br>
+                (+39) 333 123123<br>
+                <a href="mailto:#">squeglia.michele@gmail.com</a>
+            </address>
+        </div>
+        <div class="col-md-2">
+            <img src="img/miky/miky-face.png" alt="..." class="img-rounded img-responsive">
+        </div>
+    </div>
     <hr>
 
     <footer>
@@ -87,7 +96,10 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 
+<!-- Other JS lib -->
 <script src="https://use.fontawesome.com/68c8c79a39.js"></script>
+
+<!-- JS custom -->
 
 </body>
 </html>
