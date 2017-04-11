@@ -1,13 +1,10 @@
 $(function () {
 
-    var carouselSelector = ".carousel";
-
-    $(carouselSelector).swiperight(function () {
-        $(this).carousel('prev');
-    });
-
-    $(carouselSelector).swipeleft(function () {
-        $(this).carousel('next');
+    $("#owl-example").owlCarousel({
+        loop: true,
+        responsiveClass: true,
+        items: 1,
+        autoplay: true
     });
 
 });
